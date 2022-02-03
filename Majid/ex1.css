@@ -1,4 +1,4 @@
-body{ background-color :#79ebb6; }/*the element selector*/    
+body{ background-color :#d6d0eb; }/*the element selector*/    
 h1 {color :orange; text-align :center;margin: 20px 30px 30px 10px; }  
 h1.hidden { display: hidden;  } 
 h2.hidden {  visibility: hidden;  }
@@ -11,4 +11,5 @@ td {border:1px solid rgb(34, 20, 224); height: 50px;
   }   
 th{ height: 50px;border-collapse: collapse;text-align: right; } 
 tr{color:blueviolet} 
-p.center {      text-align: center;      color: rgb(144, 211, 191);  }     
+p.center { text-align: center; color: rgb(219, 18, 52);  } /*class selector*/
+.center{text-align: center; color:greenyellow}   

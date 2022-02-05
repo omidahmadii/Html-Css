@@ -189,22 +189,102 @@
 
     </div>
     <div>
-        <form action="index2.html" method="post" target="_blank" autocomplete="on" enctype="application/x-www-form-urlencoded" novalidate > 
-            <label for=""></label>
-            
-            <input type="text">
-            <input type="button" value="Submit">
-            <input type="checkbox">
-            <input type="color">
-            <input type="date">
-            
-
-
-
-
+        <form action="index2.html" method="post" target="_blank" autocomplete="on"
+            enctype="application/x-www-form-urlencoded" novalidate>
+            <label for=""></label><br>
+            <input type="text" readonly required> <br>
+            <input type="button" value="Submit"><br>
+            <input type="checkbox"><br>
+            <input type="color"><br>
+            <input type="date"><br>
+            <input type="email"><br>
+            <input type="file"><br>
+            <input type="hidden" value=""><br>
+            <input type="month" value=""><br>
+            <input type="number"><br>
+            <input type="password"><br>
+            <input type="radio" name="groupa" checked><br>
+            <input type="radio" name="groupa"><br>
+            <input type="range"><br>
+            <input type="search"><br>
+            <input type="submit"><br>
+            <input type="tel"><br>
+            <input type="week"><br>
+            <input type="url"><br>
+            <input type="time"><br>
             <button type="submit"> Submit </button>
         </form>
     </div>
 
+    <div>
+        <label for="progress">HTML</label>
+        <progress max="100" value="50">
+
+        </progress><br>
+
+        <label for="progress">Css</label>
+        <progress max="100" value="75">
+            50%
+        </progress><br>
+
+        <label for="progress">PHP</label>
+        <progress max="100" value="50">
+            50%
+        </progress><br>
+
+        <label for="progress">JS</label>
+        <progress max="100" value="50">
+            50%
+        </progress><br>
+
+    </div>
+
+    <div>
+        <label for="Car"> Choose a Category</label>
+        <select name="" id="" multiple>
+            <optgroup label="1st Category">
+                <option value="" disabled>206</option>
+                <option value="">405</option>
+                <option value="">Pars</option>
+            </optgroup>
+            <optgroup label="2nd Category">
+                <option value="">206</option>
+                <option value="">405</option>
+                <option value="" selected>Pars</option>
+            </optgroup>
+            <optgroup label="3th Category">
+                <option value="">206</option>
+                <option value="">405</option>
+                <option value="">Pars</option>
+            </optgroup>
+        </select>
+    </div>
+
+    <div>
+
+        <textarea name="" id="" cols="60" rows="10" placeholder="Please inter your comment ." wrap="hard"></textarea>
+        <br>
+
+        <button type="submit"> send the form </button> <br>
+        <button type="button"> act an action but not send anything </button> <br>
+        <button type="reset"> clear the form </button> <br>
+
+    </div>
+
+
+    <div>
+
+        <input list="datalist" name="" id="">
+        <datalist id="datalist">
+            <option value="Car" selected>
+            <option value="Bike">
+            <option value="Plane">
+            <option value="Ship">
+
+        </datalist>
+
+
+    </div>
 </body>
+
 </html>
